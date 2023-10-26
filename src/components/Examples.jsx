@@ -31,8 +31,10 @@ export default function Examples() {
   return (
     /* Components composition (children props) */
     <section title="Examples" id="examples">
-    {/* slots */}
+      {/* slots */}
       <Tabs
+        //   menggunakan string karena ingin mencetak "menu" bawaan
+        ButtonsContainer="menu"
         buttons={
           <>
             {/* addEventListener  */}
